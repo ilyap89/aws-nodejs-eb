@@ -23,5 +23,5 @@ app.get('/', function (req, res) {
 var port = process.env.PORT || 3000
 
 var server = app.listen(port, function () {
-  console.log('Server running at http://172.31.24.217:' + port + '/')
+  console.log('Server running at http://127.0.0.1:' + port + '/')
 })
